@@ -1,7 +1,7 @@
 def clean_taxi_data(**context):
     import pandas as pd
     import logging
-
+# ingest logic (v2)
     # 1. ดึง Path ของไฟล์ดิบจาก XCom ที่ Task แรกส่งมา
     raw_path = context["ti"].xcom_pull(key="raw_path", task_ids="ingest_taxi_data")
     

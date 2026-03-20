@@ -3,7 +3,7 @@ import pandas as pd
 import logging
 import time
 from airflow.exceptions import AirflowException
-
+# ingest logic (v2)
 def ingest_taxi_data(**context):
     url = "https://data.cityofnewyork.us/api/views/t29m-gskq/rows.csv"
     
