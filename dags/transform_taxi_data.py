@@ -11,7 +11,7 @@ def transform_taxi_data(**context):
     logging.info(f"Loading clean data from: {clean_path}")
     df = pd.read_csv(clean_path)
 
-    # แปลงเวลาเป็น datetime
+    # แปลงเวลาเป็น datetime นะ
     df["tpep_pickup_datetime"] = pd.to_datetime(df["tpep_pickup_datetime"])
     df["tpep_dropoff_datetime"] = pd.to_datetime(df["tpep_dropoff_datetime"])
 

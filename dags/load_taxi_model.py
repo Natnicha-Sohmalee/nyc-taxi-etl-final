@@ -19,7 +19,7 @@ def load_taxi_model(**context):
     df = pd.read_csv(transformed_path)
 
     # ==========================================
-    # ✅ 3. CONNECT MYSQL 
+    # ✅ 3. CONNECT MYSQL connect
     # ==========================================
     mysql_host = "mydb"        
     mysql_user = "admin"      
