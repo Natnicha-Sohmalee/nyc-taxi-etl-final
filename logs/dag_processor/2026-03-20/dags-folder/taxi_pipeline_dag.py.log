@@ -1,0 +1,2 @@
+{"timestamp":"2026-03-20T04:53:39.235565Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/taxi_pipeline_dag.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-03-20T04:53:39.283058Z","level":"warning","event":"The `airflow.operators.python.PythonOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.python.PythonOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/taxi_pipeline_dag.py","lineno":2,"logger":"py.warnings"}
